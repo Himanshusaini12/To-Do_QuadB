@@ -1,0 +1,55 @@
+
+.add-todo {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #72777b;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.task-input:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.task-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.task-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.task-button:active {
+    background-color: #004085;
+    border-color: #004085;
+}
+
+@media (max-width: 480px) {
+    .add-todo {
+        flex-direction: column;
+    }
+
+    .task-input {
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+
+    .task-button {
+        border-radius: 4px;
+    }
+}

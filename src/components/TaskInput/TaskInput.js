@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from "react-redux";
-import { addTask } from "../redux/tasksSlice";
-
+import { addTask } from "../../redux/tasksSlice";
+ import './TaskInput.css'
 const TaskInput = () => {
 	const [value, setValue] = useState('');
 
@@ -40,6 +40,8 @@ const TaskInput = () => {
 				Save
 			</button>
 		</div>
+
+		
 	);
 };
 

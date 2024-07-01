@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from "react-redux";
-import { deleteTask, updateTaskPriority } from "../redux/tasksSlice";
+import { deleteTask, updateTaskPriority } from "../../redux/tasksSlice";
 import './TodoItem.css';
 
 const TodoItem = ({ id, title, priority }) => {

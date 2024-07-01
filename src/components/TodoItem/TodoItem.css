@@ -6,7 +6,8 @@
     margin-bottom: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    overflow: hidden; 
 }
 
 .task-item-Low {
@@ -28,6 +29,8 @@
     flex-grow: 1;
     margin-right: 10px;
     font-size: 16px;
+    word-break: break-word;
+    overflow-wrap: break-word; 
 }
 
 .task-item select {
@@ -48,6 +51,7 @@
     cursor: pointer;
     font-size: 14px;
     transition: background-color 0.2s;
+    white-space: nowrap; 
 }
 
 .remove-task-button:hover {
@@ -61,10 +65,18 @@
     }
 
     .task-item div:last-child {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
         margin-top: 10px;
     }
 
     .task-item select {
-        margin-bottom: 10px;
+        flex-grow: 1;
+        margin-right: 10px;
+    }
+
+    .remove-task-button {
+        white-space: nowrap;
     }
 }
