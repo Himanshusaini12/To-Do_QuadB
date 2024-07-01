@@ -1,15 +1,23 @@
 Mobile view of app
 ![alt text](image.png)
+
+
 Desktop view of app
 ![alt text](image-1.png)
 
 Features
 Add Task: Easily create new tasks with a user-friendly interface.
+
 View Tasks: See all your tasks in a clean, organized list.
+
 Delete Task: Remove completed or unnecessary tasks with a single click.
+
 Task Prioritization: Assign priority levels to tasks for better organization.
+
 Persistent Storage: Tasks are saved locally, ensuring data persistence across sessions.
+
 Responsive Design: Optimized layout for both mobile and desktop views.
+
 User Authentication: Secure login/logout functionality to protect user data.
 
 Installation and Setup
