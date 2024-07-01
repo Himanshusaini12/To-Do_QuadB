@@ -8,35 +8,35 @@
     flex-grow: 1;
     padding: 10px;
     font-size: 16px;
-    border: 2px solid #72777b;
+    border: 2px solid #67ba56;
     border-radius: 4px 0 0 4px;
     outline: none;
 }
 
 .task-input:focus {
-    border-color: #80bdff;
-    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    border-color: #21c63d;
+    box-shadow: 0 0 0 0.2rem rgba(18, 181, 80, 0.25);
 }
 
 .task-button {
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background-color: #007bff;
-    border: 1px solid #007bff;
+    background-color: #19d87c;
+    border: 1px solid #1bb16e;
     border-radius: 0 4px 4px 0;
     cursor: pointer;
     transition: background-color 0.2s;
 }
 
 .task-button:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+    background-color: #2ab021;
+    border-color: #20a546;
 }
 
 .task-button:active {
-    background-color: #004085;
-    border-color: #004085;
+    background-color: #1db04e;
+    border-color: #2cc951;
 }
 
 @media (max-width: 480px) {

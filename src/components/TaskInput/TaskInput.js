@@ -37,7 +37,7 @@ const TaskInput = () => {
 			></input>
 
 			<button className="task-button" onClick={onSubmit}>
-				Save
+				ADD
 			</button>
 		</div>
 

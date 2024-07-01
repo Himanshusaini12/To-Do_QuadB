@@ -10,7 +10,7 @@
 }
 .add-todo {
     
-    padding: 30px;
+    padding: 10px;
 
 }
 body {
@@ -23,4 +23,18 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+
+  h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #04AA6D;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    position: relative;
   }
