@@ -1,10 +1,12 @@
 import React from 'react';
 import { useDispatch } from "react-redux";
 import { deleteTask, updateTaskPriority } from "../redux/tasksSlice";
+import './TodoItem.css';
 
 const TodoItem = ({ id, title, priority }) => {
     const dispatch = useDispatch();
-
+   
+     console.log("Task ID:", id, "Title:", title, "Priority:", priority);
     const removeTask = () => {
         dispatch(deleteTask({ id: id }));
     }
@@ -14,7 +16,7 @@ const TodoItem = ({ id, title, priority }) => {
     }
 
     return (
-        <li className="task-item">
+        <li className={`task-item task-item-${priority}`}>
             <div>
                 {title}
             </div>

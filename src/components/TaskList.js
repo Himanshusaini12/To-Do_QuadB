@@ -10,7 +10,7 @@ const TaskList = () => {
 	return (
 		<ul className="tasks-list">
 			{todos.map((todo) => (
-				<TodoItem id={todo.id} title={todo.name} completed={todo.status} />
+				<TodoItem id={todo.id} title={todo.name} priority={todo.priority} />
 			))}
 		</ul>
 	);
